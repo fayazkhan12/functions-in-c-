@@ -1,0 +1,225 @@
+
+//COMBINATION USING FUNCTIONS
+
+
+/*  #include<iostream>
+using namespace std;
+void combination()
+{
+    int n;
+    cout<<"enter n ";
+    cin>>n;
+    int r;
+    cout<<"enter r ";
+    cin>>r;
+    
+    int nfact=1;
+    for(int i=2;i<=n;i++)
+    {
+        nfact*=i;
+        
+    }
+    int rfact=1;
+    for(int i=2;i<=r;i++)
+    {
+        rfact*=i;
+        
+    }
+    
+    int nrfact =1;
+    for(int i=2;i<=n-r;i++)
+    
+    {
+        nrfact*=i;
+    }
+    
+    int npr=nfact/ rfact* ( nrfact);
+    cout<<"combinationa is   "<<npr;
+}
+
+
+
+int main()
+{
+    permutation();
+}
+
+#include<iostream>
+using namespace std;
+void permutation()
+{
+    int n;
+    cout<<"enter n ";
+    cin>>n;
+    int r;
+    cout<<"enter r ";
+    cin>>r;
+    
+    int nfact=1;
+    for(int i=2;i<=n;i++)
+    {
+        nfact*=i;
+        
+    }
+    int rfact=1;
+    for(int i=2;i<=r;i++)
+    {
+        rfact*=i;
+        
+    }
+    
+    int nrfact =1;
+    for(int i=2;i<=n-r;i++)
+    
+    {
+        nrfact*=i;
+    }
+    
+    int npr=nfact/ ( nrfact);
+    cout<<"permutation is   "<<npr;
+}
+
+
+
+
+int main()
+{
+    permutation();
+}
+
+*/
+
+
+
+
+
+
+
+
+
+// pointers IN C++
+/*
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cout<<&a;
+}
+
+
+//  SAME VALUES BUT ADDRESSES ARE DIFFERENT 
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+   a=3;
+   b=3;
+   cout<<&a<<endl<<&b;
+   
+}
+
+
+
+// pointers 
+//pointers me address of a hai but address are same .. 
+
+#include<iostream>
+using namespace std;
+int main()
+
+{
+    int a;
+    int* ptr=&a; // INITIALISATION OF pointers
+    cout<<&ptr<<endl;// ptr ka khudka address diffrent hai
+    cout<<&a<<endl;
+    cout<<ptr; // ek dabba hai jisme a ka addresss store hai 
+    
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
