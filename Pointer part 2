@@ -1,0 +1,302 @@
+// Pass by value and pass by Reference using  pointers
+
+
+//WAP TO SWAP TWO NUMBERS USING pointers using dereferencing operator
+
+/* #include<iostream>
+ using namespace std;
+ void swap(int* x,int* y)
+ {
+     int temp= *x;
+     *x=*y;
+     *y=temp;                     //IT IS BASCIALLY PASS BY REFERENCE 
+                                 // AS BY REFERNCE WE ARE SWAPPPING THE NUMBERS
+                                 
+     return;
+ }
+ int main(){
+     int c,v;
+     cin>>c>>v;
+     swap(&c,&v);
+     cout<<c<<" "<<v;
+ }
+ 
+ 
+ */
+ 
+ //pointers ARITHIMATIC
+ 
+ 
+ 
+/* #include<iostream>
+ using namespace std;
+  int main()
+  {
+      
+      int a=5.9;
+      int* p =&a;
+     cout<<p<<endl;    // ye address ayaa 0x7ffe078f863c
+     
+     
+     p=p+1;
+     
+     cout<<p;// ye address aaya 0x7ffe078f8640       usne last me c with means -> 12 in hex code 
+     // lastt wale addres me 0 hai 
+     
+     
+     // biscaalu iska mtlb hai c+4  ->12+6=16
+  }
+  */
+  
+  
+ 
+ // increment  and decrement operator
+ 
+/*  #include<iostream>
+ using namespace std;
+ int main()
+ {
+     int a=23;
+     int* ptr=&a;
+     
+     int b= ++(*ptr);    // *ptr value acces kr rha hai 
+     cout<<a<<" "<<b;
+ }
+ 
+ */
+ 
+ //WRITE A FUNCTION TO FIND OUT THE FIRST AD THE LAST DIGIT OF AA NUMBER WITHOUT RETURNING ANYTHING
+ 
+ 
+ 
+ 
+ /*#include<iostream>
+ using namespace std;
+ 
+ int last()
+ {
+     
+     int n=n%10;
+     return n;
+     
+ }
+ 
+ int main()
+ {
+     int n;
+     cout<<"enter the numbers..";
+     cin>>n;
+     last();
+ }
+ 
+ 
+ 
+ 
+ */
+ 
+ 
+ // wap  to find the first and the last digit of a numbers using pointers
+ 
+/* #include<iostream>
+ using namespace std; 
+ int main()
+ {
+    int n;
+    cout<<"enter the number..";
+    cin>>n;
+    int* p=&n;
+    n=n%10;
+    cout<<"the last digit of the number is.."<<*p;   // through pointer we find the last digit of a number..
+ }
+ 
+ */
+ 
+ // find the first digit number using pointer
+ 
+/* #include<iostream>
+ using namespace std;
+ int main()
+ {
+     
+  int n;
+  cout<<"enter the number..";
+  cin>>n;
+  
+  int* p=&n;
+  while(n>=10){
+      n=n/10;
+      
+  }
+  
+  cout<<"first digit of the number is.."<<*p;
+  
+  
+ }/*
+
+// NULL POINTER
+
+
+// NULL pointer
+ #include<iostream>
+ using namespace std;
+ int main()
+ {
+     
+     int* ptr = NULL;// reserved address
+     cout<<ptr;
+ }
+
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
